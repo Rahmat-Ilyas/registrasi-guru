@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>eLEARNING - eLearning HTML Template</title>
+    <title>Guru Andalan Sulawesi Selatan</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -47,27 +47,20 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>eLEARNING</h2>
+            <h2 class="m-0 text-primary"><i class="fa fa-book-open fa-lg me-2"></i>GuruAndalan</h2>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="courses.html" class="nav-item nav-link">Courses</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu fade-down m-0">
-                        <a href="team.html" class="dropdown-item">Our Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="404.html" class="dropdown-item">404 Page</a>
-                    </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="#" class="nav-item nav-link active">Home</a>
+                <a href="#" class="nav-item nav-link">Informasi</a>
+                <a href="#" class="nav-item nav-link">Jadwal</a>
+                <a href="#" class="nav-item nav-link">Cara Pendaftaran</a>
+                <a href="#" class="nav-item nav-link">Kontak</a>
             </div>
-            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i
+            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Daftar Sekarang<i
                     class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
@@ -78,7 +71,7 @@
     <div class="container-fluid p-0 mb-5">
         <div class="owl-carousel header-carousel position-relative">
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="{{ asset('img/carousel-1.jpg') }}" alt="">
+                <img class="img-fluid" src="{{ asset('img/home-1.jpg') }}" alt="" style="height: 800px">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                     style="background: rgba(24, 29, 56, .7);">
                     <div class="container">
@@ -91,16 +84,17 @@
                                 <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed
                                     stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus
                                     eirmod elitr.</p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read
-                                    More</a>
-                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
+                                <a href=""
+                                    class="btn btn-light py-md-3 px-md-5 me-3 animated slideInLeft">Selengkapnya</a>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 animated slideInRight">Daftar
+                                    Sekarang</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="{{ asset('img/carousel-2.jpg') }}" alt="">
+                <img class="img-fluid" src="{{ asset('img/home-2.jpg') }}" alt="" style="height: 800px">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                     style="background: rgba(24, 29, 56, .7);">
                     <div class="container">
@@ -113,9 +107,10 @@
                                 <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed
                                     stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus
                                     eirmod elitr.</p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read
-                                    More</a>
-                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
+                                <a href=""
+                                    class="btn btn-light py-md-3 px-md-5 me-3 animated slideInLeft">Selengkapnya</a>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 animated slideInRight">Daftar
+                                    Sekarang</a>
                             </div>
                         </div>
                     </div>
@@ -133,8 +128,8 @@
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="service-item text-center pt-3">
                         <div class="p-4">
-                            <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
-                            <h5 class="mb-3">Skilled Instructors</h5>
+                            <i class="fa fa-3x fa-money-bill-alt text-primary mb-4"></i>
+                            <h5 class="mb-3">Gaji Bulanan</h5>
                             <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
                         </div>
                     </div>
@@ -143,7 +138,7 @@
                     <div class="service-item text-center pt-3">
                         <div class="p-4">
                             <i class="fa fa-3x fa-globe text-primary mb-4"></i>
-                            <h5 class="mb-3">Online Classes</h5>
+                            <h5 class="mb-3">Kelas Online</h5>
                             <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
                         </div>
                     </div>
@@ -152,7 +147,7 @@
                     <div class="service-item text-center pt-3">
                         <div class="p-4">
                             <i class="fa fa-3x fa-home text-primary mb-4"></i>
-                            <h5 class="mb-3">Home Projects</h5>
+                            <h5 class="mb-3">Mengajar Dari Rumah</h5>
                             <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
                         </div>
                     </div>
@@ -161,7 +156,7 @@
                     <div class="service-item text-center pt-3">
                         <div class="p-4">
                             <i class="fa fa-3x fa-book-open text-primary mb-4"></i>
-                            <h5 class="mb-3">Book Library</h5>
+                            <h5 class="mb-3">Modul & Bahan Mengajar</h5>
                             <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
                         </div>
                     </div>
@@ -299,7 +294,7 @@
                                 <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 0 0 30px;">Read More</a>
                                 <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3"
-                                    style="border-radius: 0 30px 30px 0;">Join Now</a>
+                                    style="border-radius: 0 30px 30px 0;">Daftar Sekarang</a>
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
@@ -332,7 +327,7 @@
                                 <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 0 0 30px;">Read More</a>
                                 <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3"
-                                    style="border-radius: 0 30px 30px 0;">Join Now</a>
+                                    style="border-radius: 0 30px 30px 0;">Daftar Sekarang</a>
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
@@ -365,7 +360,7 @@
                                 <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
                                     style="border-radius: 30px 0 0 30px;">Read More</a>
                                 <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3"
-                                    style="border-radius: 0 30px 30px 0;">Join Now</a>
+                                    style="border-radius: 0 30px 30px 0;">Daftar Sekarang</a>
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">

@@ -71,12 +71,18 @@ License: You must have a valid license purchased only from themeforest(the above
                             action="{{ route('verifier.login.submit') }}">
                             @csrf
                             <div class="form-group mb-5">
-                                <input class="form-control h-auto form-control-solid py-4 px-8" type="text"
-                                    placeholder="Username" name="username" autocomplete="off" />
+                                <input class="form-control h-auto form-control-solid py-4 px-8" type="text" required
+                                    placeholder="Username" name="username" autocomplete="off"
+                                    value="{{ old('username') }}" />
                             </div>
                             <div class="form-group mb-5">
-                                <input class="form-control h-auto form-control-solid py-4 px-8" type="password"
+                                <input class="form-control h-auto form-control-solid py-4 px-8" type="password" required
                                     placeholder="Password" name="password" />
+                                @if ($errors->has('error'))
+                                    <div class="mt-2 text-left">
+                                        <span class="text-danger">{{ $errors->first('error') }}</span>
+                                    </div>
+                                @endif
                             </div>
                             <div class="form-group d-flex flex-wrap justify-content-between align-items-center">
                                 <div class="checkbox-inline">

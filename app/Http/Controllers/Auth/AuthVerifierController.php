@@ -33,8 +33,12 @@ class AuthVerifierController extends Controller
         ];
 
         if (Auth::attempt($credential)) {
-            Auth::guard('verifier')->attempt($credential, $request->filled('remember'));
-            return redirect()->intended(route('verifier.home'));
+            $auth = Auth::user();
+            if ($auth->role == 'verifier') {
+                Auth::guard('verifier')->attempt($credential, $request->filled('remember'));
+                return redirect()->intended(route('verifier.home'));
+            }
+            Auth::guard('verifier')->logout();
         }
 
         return redirect()->back()->withInput($request->only('username', 'password'))->withErrors(['error' => ['Username atau password yang anda masukkan salah!']]);

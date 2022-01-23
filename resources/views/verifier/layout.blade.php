@@ -253,7 +253,7 @@
                                 <ul class="menu-nav">
                                     <li class="menu-item menu-item-here menu-item-submenu menu-item-rel"
                                         data-menu-toggle="click" aria-haspopup="true">
-                                        <h4 class="text-white">Admin Page</h4>
+                                        <h4 class="text-white">Panel Tim Pemverifikasi Berkas Pendaftaran</h4>
                                     </li>
                                 </ul>
                                 <!--end::Header Nav-->
@@ -386,7 +386,8 @@
                                 <span class="navi-text text-muted text-hover-primary">admin@test.com</span>
                             </span>
                         </a>
-                        <a href="#" class="btn btn-sm btn-light-primary font-weight-bolder py-2 px-5">Sign Out</a>
+                        <a href="{{ url('verifier/logout') }}"
+                            class="btn btn-sm btn-light-primary font-weight-bolder py-2 px-5">Sign Out</a>
                     </div>
                 </div>
             </div>

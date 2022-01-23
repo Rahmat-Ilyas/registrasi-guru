@@ -386,7 +386,8 @@
                                 <span class="navi-text text-muted text-hover-primary">admin@test.com</span>
                             </span>
                         </a>
-                        <a href="#" class="btn btn-sm btn-light-primary font-weight-bolder py-2 px-5">Sign Out</a>
+                        <a href="{{ url('admin/logout') }}"
+                            class="btn btn-sm btn-light-primary font-weight-bolder py-2 px-5">Sign Out</a>
                     </div>
                 </div>
             </div>

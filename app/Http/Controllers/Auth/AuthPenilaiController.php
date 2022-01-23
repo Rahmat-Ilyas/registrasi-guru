@@ -33,8 +33,12 @@ class AuthPenilaiController extends Controller
         ];
 
         if (Auth::attempt($credential)) {
-            Auth::guard('penilai')->attempt($credential, $request->filled('remember'));
-            return redirect()->intended(route('penilai.home'));
+            $auth = Auth::user();
+            if ($auth->role == 'penilai') {
+                Auth::guard('penilai')->attempt($credential, $request->filled('remember'));
+                return redirect()->intended(route('penilai.home'));
+            }
+            Auth::guard('penilai')->logout();
         }
 
         return redirect()->back()->withInput($request->only('username', 'password'))->withErrors(['error' => ['Username atau password yang anda masukkan salah!']]);

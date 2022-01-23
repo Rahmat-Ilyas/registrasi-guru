@@ -33,8 +33,12 @@ class AuthAdminController extends Controller
         ];
 
         if (Auth::attempt($credential)) {
-            Auth::guard('admin')->attempt($credential, $request->filled('remember'));
-            return redirect()->intended(route('admin.home'));
+            $auth = Auth::user();
+            if ($auth->role == 'admin') {
+                Auth::guard('admin')->attempt($credential, $request->filled('remember'));
+                return redirect()->intended(route('admin.home'));
+            }
+            Auth::guard('admin')->logout();
         }
 
         return redirect()->back()->withInput($request->only('username', 'password'))->withErrors(['error' => ['Username atau password yang anda masukkan salah!']]);
