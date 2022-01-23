@@ -17,7 +17,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <head>
     <base href="../../../../">
     <meta charset="utf-8" />
-    <title>Login Page - Admin</title>
+    <title>Login Page - Tim Verifikasi</title>
     <meta name="description" content="Login page example" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <!--begin::Fonts-->
@@ -52,7 +52,7 @@ License: You must have a valid license purchased only from themeforest(the above
         <!--begin::Login-->
         <div class="login login-4 login-signin-on d-flex flex-row-fluid" id="kt_login">
             <div class="d-flex flex-center flex-row-fluid bgi-size-cover bgi-position-top bgi-no-repeat"
-                style="background-image: url('{{ asset('assets/media/bg/bg-3.jpg') }}');">
+                style="background-image: url('{{ asset('assets/media/bg/bg-2.jpg') }}');">
                 <div class="login-form text-center p-7 position-relative overflow-hidden">
                     <!--begin::Login Header-->
                     <div class="d-flex flex-center mb-15">
@@ -64,11 +64,11 @@ License: You must have a valid license purchased only from themeforest(the above
                     <!--begin::Login Sign in form-->
                     <div class="login-signin">
                         <div class="mb-20">
-                            <h3>Login Halaman Admin</h3>
+                            <h3 class="text-white">Login Halaman Verifier</h3>
                             <div class="text-muted font-weight-bold">Silahkan lengkapi detail akun anda:</div>
                         </div>
                         <form class="form" id="kt_login_signin_form" method="post"
-                            action="{{ route('admin.login.submit') }}">
+                            action="{{ route('verifier.login.submit') }}">
                             @csrf
                             <div class="form-group mb-5">
                                 <input class="form-control h-auto form-control-solid py-4 px-8" type="text"

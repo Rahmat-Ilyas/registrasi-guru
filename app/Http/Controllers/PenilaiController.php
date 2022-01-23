@@ -4,25 +4,25 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class AdminController extends Controller
+class PenilaiController extends Controller
 {
     public function __construct()
     {
-        $this->middleware('auth:admin');
+        $this->middleware('auth:penilai');
     }
 
     public function home()
     {
-        return view('admin/home');
+        return view('penilai/home');
     }
 
     public function page($page)
     {
-        return view('admin/' . $page);
+        return view('penilai/' . $page);
     }
 
     public function pagedir($dir = NULL, $page)
     {
-        return view('admin/' . $dir . '/' . $page);
+        return view('penilai/' . $dir . '/' . $page);
     }
 }

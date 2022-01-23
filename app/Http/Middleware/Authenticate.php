@@ -14,8 +14,14 @@ class Authenticate extends Middleware
      */
     protected function redirectTo($request)
     {
-        if (! $request->expectsJson()) {
-            return route('login');
+        if ($request->is('user')) {
+            return route('user.login');
+        } else if ($request->is('admin')) {
+            return route('admin.login');
+        } else if ($request->is('penilai')) {
+            return route('penilai.login');
+        } else if ($request->is('verifier')) {
+            return route('verifier.login');
         }
     }
 }

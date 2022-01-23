@@ -6,21 +6,21 @@ use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class AuthAdminController extends Controller
+class AuthVerifierController extends Controller
 {
     public function __construct()
     {
-        $this->middleware('guest:admin')->except('logout');
+        $this->middleware('guest:verifier')->except('logout');
     }
 
     public function showLoginForm()
     {
-        return view('admin/login');
+        return view('verifier/login');
     }
 
     public function login(Request $request)
     {
-        config()->set('auth.defaults.guard', 'admin');
+        config()->set('auth.defaults.guard', 'verifier');
 
         $this->validate($request, [
             'username' => 'required',
@@ -33,8 +33,8 @@ class AuthAdminController extends Controller
         ];
 
         if (Auth::attempt($credential)) {
-            Auth::guard('admin')->attempt($credential, $request->filled('remember'));
-            return redirect()->intended(route('admin.home'));
+            Auth::guard('verifier')->attempt($credential, $request->filled('remember'));
+            return redirect()->intended(route('verifier.home'));
         }
 
         return redirect()->back()->withInput($request->only('username', 'password'))->withErrors(['error' => ['Username atau password yang anda masukkan salah!']]);
@@ -42,10 +42,10 @@ class AuthAdminController extends Controller
 
     public function logout(Request $request)
     {
-        Auth::guard('admin')->logout();
+        Auth::guard('verifier')->logout();
 
         $request->session()->invalidate();
 
-        return redirect('/admin');
+        return redirect('/verifier');
     }
 }
