@@ -54,11 +54,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="#" class="nav-item nav-link active">Home</a>
-                <a href="#" class="nav-item nav-link">Informasi</a>
-                <a href="#" class="nav-item nav-link">Jadwal</a>
-                <a href="#" class="nav-item nav-link">Cara Pendaftaran</a>
-                <a href="#" class="nav-item nav-link">Kontak</a>
+                <a href="#" class="nav-item nav-link active" id="nav-home">Home</a>
+                <a href="#informasi" class="nav-item nav-link" id="nav-informasi">Informasi</a>
+                <a href="#jadwal" class="nav-item nav-link" id="nav-jadwal">Jadwal</a>
+                <a href="#caraDaftar" class="nav-item nav-link" id="nav-caraDaftar">Cara Pendaftaran</a>
+                <a href="#kontak" class="nav-item nav-link" id="nav-kontak">Kontak</a>
             </div>
             <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Daftar Sekarang<i
                     class="fa fa-arrow-right ms-3"></i></a>
@@ -77,14 +77,15 @@
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-sm-10 col-lg-8">
-                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Best Online Courses
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Pendaftaran Guru
+                                    Smartschool
                                 </h5>
-                                <h1 class="display-3 text-white animated slideInDown">The Best Online Learning Platform
+                                <h1 class="display-3 text-white animated slideInDown">Daftarkan Diri Anda Sekarang
                                 </h1>
-                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed
-                                    stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus
-                                    eirmod elitr.</p>
-                                <a href=""
+                                <p class="fs-5 text-white mb-4 pb-2">Mari berkontribusi dalam membangun
+                                    dan memajukan pendidikan di Sulawesi Selatan. Daftarkan diri anda di program
+                                    prioritas Smartschool</p>
+                                <a href="#informasi"
                                     class="btn btn-light py-md-3 px-md-5 me-3 animated slideInLeft">Selengkapnya</a>
                                 <a href="" class="btn btn-primary py-md-3 px-md-5 animated slideInRight">Daftar
                                     Sekarang</a>
@@ -100,14 +101,15 @@
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-sm-10 col-lg-8">
-                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Best Online Courses
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Pendaftaran Guru
+                                    Smartschool
                                 </h5>
                                 <h1 class="display-3 text-white animated slideInDown">Get Educated Online From Your Home
                                 </h1>
-                                <p class="fs-5 text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed
-                                    stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus
-                                    eirmod elitr.</p>
-                                <a href=""
+                                <p class="fs-5 text-white mb-4 pb-2">Mari berkontribusi dalam membangun
+                                    dan memajukan pendidikan di Sulawesi Selatan. Daftarkan diri anda di program
+                                    prioritas Smartschool</p>
+                                <a href="#informasi"
                                     class="btn btn-light py-md-3 px-md-5 me-3 animated slideInLeft">Selengkapnya</a>
                                 <a href="" class="btn btn-primary py-md-3 px-md-5 animated slideInRight">Daftar
                                     Sekarang</a>
@@ -168,8 +170,8 @@
 
 
     <!-- About Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
+    <div class="container-xxl py-5" id="informasi">
+        <div class="container pt-5">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
@@ -178,8 +180,8 @@
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
-                    <h1 class="mb-4">Welcome to eLEARNING</h1>
+                    <h6 class="section-title bg-white text-start text-primary pe-3">Informasi</h6>
+                    <h1 class="mb-4">Selamat Datang di Guru Andalan</h1>
                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam
                         amet diam et eos. Clita erat ipsum et lorem et sit.</p>
                     <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam
@@ -220,11 +222,11 @@
 
 
     <!-- Categories Start -->
-    <div class="container-xxl py-5 category">
-        <div class="container">
+    <div class="container-xxl py-5 category" id="jadwal">
+        <div class="container pt-5">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Categories</h6>
-                <h1 class="mb-5">Courses Categories</h1>
+                <h6 class="section-title bg-white text-center text-primary px-3">Jadwal</h6>
+                <h1 class="mb-5">Jadwal & Schedules Pendaftaran</h1>
             </div>
             <div class="row g-3">
                 <div class="col-lg-7 col-md-6">
@@ -279,11 +281,11 @@
 
 
     <!-- Courses Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
+    <div class="container-xxl py-5" id="caraDaftar">
+        <div class="container pt-5">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Courses</h6>
-                <h1 class="mb-5">Popular Courses</h1>
+                <h6 class="section-title bg-white text-center text-primary px-3">Cara Pendaftaran</h6>
+                <h1 class="mb-5">Petunjuk Cara Pendaftaran</h1>
             </div>
             <div class="row g-4 justify-content-center">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -393,7 +395,7 @@
 
     <!-- Team Start -->
     <div class="container-xxl py-5">
-        <div class="container">
+        <div class="container pt-5">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="section-title bg-white text-center text-primary px-3">Instructors</h6>
                 <h1 class="mb-5">Expert Instructors</h1>
@@ -640,6 +642,25 @@
 
     <!-- Template Javascript -->
     <script src="{{ asset('js/main.js') }}"></script>
+
+    <script>
+        $(document).ready(function() {
+            $(document).scroll(function() {
+                var st = $(this).scrollTop() + 50;
+                var informasi = $('#informasi').offset().top;
+                var jadwal = $('#jadwal').offset().top;
+                var caraDaftar = $('#caraDaftar').offset().top;
+                console.log(st);
+                console.log(informasi);
+                console.log('');
+                $('.nav-link').removeClass('active');
+                if (st < informasi) $('#nav-home').addClass('active');
+                else if (st > informasi && st < jadwal) $('#nav-informasi').addClass('active');
+                else if (st > jadwal && st < caraDaftar) $('#nav-jadwal').addClass('active');
+                else if (st > caraDaftar) $('#nav-caraDaftar').addClass('active');
+            });
+        });
+    </script>
 </body>
 
 </html>
