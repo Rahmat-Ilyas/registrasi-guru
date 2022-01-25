@@ -176,45 +176,120 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="{{ asset('img/about.jpg') }}" alt=""
-                            style="object-fit: cover;">
+                        <img class="img-fluid position-absolute w-100 h-100" src="{{ asset('img/tentang.jpg') }}"
+                            alt="" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                     <h6 class="section-title bg-white text-start text-primary pe-3">Informasi</h6>
-                    <h1 class="mb-4">Selamat Datang di Guru Andalan</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam
-                        amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam
-                        amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna
-                        dolore erat amet</p>
-                    <div class="row gy-2 gx-4 mb-4">
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Skilled
-                                Instructors</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Online Classes
-                            </p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>International
-                                Certificate</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Skilled
-                                Instructors</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Online Classes
-                            </p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>International
-                                Certificate</p>
+                    <h1 class="mb-4">Program Prioritas Smart School</h1>
+                    <p class="mb-4">Salah satu permaslahan pendidikan di Sulawasi Selatan adalah tidak
+                        meratanya kulaitas pendidikan di suatu daerah dengan daerah lainnya. Hal ini disebabkan oleh
+                        tidak meratanya sebaran guru disetiap daerah, hak setiap siswa mendapatkan pendidikan yang baik
+                        dari guru yang berkualitas</p>
+                    <p class="mb-4">Untuk mengatasi permasalahan tersebut pemerintah provinsi Sulawesi Selatan
+                        mengadakan program prioritas, yaitu <b>Smart School</b>. Untuk itu kami mengundang guru PNS
+                        tingkat SMA se Sulawesi Selatan untuk mengikuti seleksi guru Smart School</p>
+                    <h4 class="mb-2 text-center">Syarat Pendaftaran</h4>
+                    <div class="row gy-2 gx-4 mb-2">
+                        <div class="col-sm-12">
+                            <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i>Merupakan Guru
+                                PNS</p>
+                            <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i>Berdomisisli di
+                                Sulawesi Selatan</p>
+                            <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i>Mengirimkan CV.
+                                sertifikat pendukung</p>
+                            <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i>Mengirimkan
+                                Portofolio</p>
+                            <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i>Video materi
+                                pembelajaran minimal durasi 5 menit</p>
+                            <p class="mb-2"><i class="fa fa-arrow-right text-primary me-2"></i>Video contoh
+                                soal dan pembahasan minimal durasi 5 menit</p>
                         </div>
                     </div>
-                    <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 wow fadeInUp mt-5" data-wow-delay="0.4s">
+                        <h4 class="mb-2 text-center">Jumlah Guru yang Diterima</h4>
+                        <div class="table-responsive shadow">
+                            <table class="table table-bordered mb-0">
+                                <thead class="bg-secondary text-white">
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Mata Pelajaran</th>
+                                        <th scope="col">Jumlah Diterima</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>1</th>
+                                        <td>Pendidikan Agama & Budi Pekerti</td>
+                                        <td>2 Guru</td>
+                                    </tr>
+                                    <tr>
+                                        <th>2</th>
+                                        <td>Pendidikan Pancasila dan Kewarganegaraan</td>
+                                        <td>2 Guru</td>
+                                    </tr>
+                                    <tr>
+                                        <th>3</th>
+                                        <td>Bahasa Indonesia</td>
+                                        <td>8 Guru</td>
+                                    </tr>
+                                    <tr>
+                                        <th>4</th>
+                                        <td>Sejarah Indonesia</td>
+                                        <td>8 Guru</td>
+                                    </tr>
+                                    <tr>
+                                        <th>5</th>
+                                        <td>Bahasa Inggris</td>
+                                        <td>8 Guru</td>
+                                    </tr>
+                                    <tr>
+                                        <th>6</th>
+                                        <td>Seni Budaya</td>
+                                        <td>2 Guru</td>
+                                    </tr>
+                                    <tr>
+                                        <th>7</th>
+                                        <td>Penddikan Jasmani Olahraga & Kesehatan</td>
+                                        <td>2 Guru</td>
+                                    </tr>
+                                    <tr>
+                                        <th>8</th>
+                                        <td>Biologi</td>
+                                        <td>7 Guru</td>
+                                    </tr>
+                                    <tr>
+                                        <th>9</th>
+                                        <td>Fisika</td>
+                                        <td>7 Guru</td>
+                                    </tr>
+                                    <tr>
+                                        <th>10</th>
+                                        <td>Kimia</td>
+                                        <td>7 Guru</td>
+                                    </tr>
+                                    <tr>
+                                        <th>11</th>
+                                        <td>Geografi</td>
+                                        <td>5 Guru</td>
+                                    </tr>
+                                    <tr>
+                                        <th>12</th>
+                                        <td>Sosiologi</td>
+                                        <td>5 Guru</td>
+                                    </tr>
+                                    <tr>
+                                        <th>13</th>
+                                        <td>Ekonomi</td>
+                                        <td>5 Guru</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -223,71 +298,72 @@
 
 
     <!-- Categories Start -->
-    <div class="container-xxl py-5 category" id="jadwal">
+    <div class="container-xxl py-5 category timeline" id="jadwal">
         <div class="container pt-5">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="section-title bg-white text-center text-primary px-3">Jadwal</h6>
-                <h1 class="mb-5">Jadwal & Schedules Pendaftaran</h1>
+                <h1 class="mb-5">Jadwal & Timeline Pendaftaran</h1>
             </div>
 
             <div class="row mt-4 justify-content-center">
-                <div class="col-md-8 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="main-timeline7">
-                        <div class="timeline">
-                            <div class="timeline-icon"><i class="fa fa-globe"></i></div>
-                            <span class="year">2018</span>
-                            <div class="timeline-content">
-                                <h5 class="title">Web Desginer</h5>
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis
-                                    vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
-                                </p>
+                <div class="col-md-8 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="timeline-centered timeline-sm">
+                        <article class="timeline-entry">
+                            <div class="timeline-entry-inner">
+                                <time class="timeline-time"><span>11 - 20 Jan</span><span>2022</span></time>
+                                <div class="timeline-icon bg-orange"><i class="fa fa-exclamation"></i></div>
+                                <div class="timeline-label bg-orange">
+                                    <p class="timeline-title">Sosialisasi Kegiatan</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-icon"><i class="fa fa-rocket"></i></div>
-                            <span class="year">2017</span>
-                            <div class="timeline-content">
-                                <h5 class="title">Web Developer</h5>
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis
-                                    vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
-                                </p>
+                        </article>
+                        <article class="timeline-entry left-aligned">
+                            <div class="timeline-entry-inner">
+                                <time class="timeline-time"><span>13 - 26 Jan</span><span>2022</span></time>
+                                <div class="timeline-icon bg-pink"><i class="fa fa-file-alt"></i></div>
+                                <div class="timeline-label bg-pink">
+                                    <p class="timeline-title">Mengupload portofolio peserta, video pembelajaran dan
+                                        pembahasan</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
-                            <span class="year">2016</span>
-                            <div class="timeline-content">
-                                <h5 class="title">Web Desginer</h5>
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis
-                                    vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
-                                </p>
+                        </article>
+                        <article class="timeline-entry">
+                            <div class="timeline-entry-inner">
+                                <time class="timeline-time"><span>14 - 29 Jan</span><span>2022</span></time>
+                                <div class="timeline-icon bg-yellow"><i class="fa fa-check"></i></div>
+                                <div class="timeline-label bg-yellow">
+                                    <p class="timeline-title text-white">Pemeriksaan Portofolio dan Video Peserta</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-icon"><i class="fa fa-mobile"></i></div>
-                            <span class="year">2015</span>
-                            <div class="timeline-content">
-                                <h5 class="title">Web Developer</h5>
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis
-                                    vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
-                                </p>
+                        </article>
+                        <article class="timeline-entry left-aligned">
+                            <div class="timeline-entry-inner">
+                                <time class="timeline-time"><span>31 Jan</span><span>2022</span></time>
+                                <div class="timeline-icon bg-blue"><i class="fa fa-info"></i></div>
+                                <div class="timeline-label bg-blue">
+                                    <p class="timeline-title text-white">Pengumuman hasil pemeriksaan portofolio dan
+                                        video</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="timeline">
-                            <div class="timeline-icon"><i class="fa fa-mobile"></i></div>
-                            <span class="year">2015</span>
-                            <div class="timeline-content">
-                                <h5 class="title">Web Developer</h5>
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis
-                                    vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
-                                </p>
+                        </article>
+                        <article class="timeline-entry">
+                            <div class="timeline-entry-inner">
+                                <time class="timeline-time"><span>02 - 05 Feb</span><span>2022</span></time>
+                                <div class="timeline-icon bg-violet"><i class="fa fa-file-signature"></i></div>
+                                <div class="timeline-label bg-violet">
+                                    <p class="timeline-title text-white">Tes Microteaching</p>
+                                </div>
                             </div>
-                        </div>
+                        </article>
+                        <article class="timeline-entry left-aligned">
+                            <div class="timeline-entry-inner">
+                                <time class="timeline-time"><span>07 Feb</span><span>2022</span></time>
+                                <div class="timeline-icon bg-green"><i class="fa fa-bullhorn"></i></div>
+                                <div class="timeline-label bg-green">
+                                    <p class="timeline-title text-white">Pengumuman Akhir</p>
+                                </div>
+                            </div>
+                        </article>
                     </div>
                 </div>
             </div>
@@ -505,61 +581,6 @@
         </div>
     </div>
     <!-- Team End -->
-
-
-    <!-- Testimonial Start -->
-    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container">
-            <div class="text-center">
-                <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
-                <h1 class="mb-5">Our Students Say!</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel position-relative">
-                <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="{{ asset('img/testimonial-1.jpg') }}"
-                        style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Client Name</h5>
-                    <p>Profession</p>
-                    <div class="testimonial-text bg-light text-center p-4">
-                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet
-                            diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="{{ asset('img/testimonial-2.jpg') }}"
-                        style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Client Name</h5>
-                    <p>Profession</p>
-                    <div class="testimonial-text bg-light text-center p-4">
-                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet
-                            diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="{{ asset('img/testimonial-3.jpg') }}"
-                        style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Client Name</h5>
-                    <p>Profession</p>
-                    <div class="testimonial-text bg-light text-center p-4">
-                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet
-                            diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="{{ asset('img/testimonial-4.jpg') }}"
-                        style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Client Name</h5>
-                    <p>Profession</p>
-                    <div class="testimonial-text bg-light text-center p-4">
-                        <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet
-                            diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
-
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
