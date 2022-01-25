@@ -31,9 +31,10 @@
 
     <!-- Template Stylesheet -->
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/timeline.css') }}" rel="stylesheet">
 </head>
 
-<body>
+<body id="home">
     <!-- Spinner Start -->
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -54,7 +55,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="#" class="nav-item nav-link active" id="nav-home">Home</a>
+                <a href="#home" class="nav-item nav-link active" id="nav-home">Home</a>
                 <a href="#informasi" class="nav-item nav-link" id="nav-informasi">Informasi</a>
                 <a href="#jadwal" class="nav-item nav-link" id="nav-jadwal">Jadwal</a>
                 <a href="#caraDaftar" class="nav-item nav-link" id="nav-caraDaftar">Cara Pendaftaran</a>
@@ -228,51 +229,66 @@
                 <h6 class="section-title bg-white text-center text-primary px-3">Jadwal</h6>
                 <h1 class="mb-5">Jadwal & Schedules Pendaftaran</h1>
             </div>
-            <div class="row g-3">
-                <div class="col-lg-7 col-md-6">
-                    <div class="row g-3">
-                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
-                            <a class="position-relative d-block overflow-hidden" href="">
-                                <img class="img-fluid" src="{{ asset('img/cat-1.jpg') }}" alt="">
-                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
-                                    style="margin: 1px;">
-                                    <h5 class="m-0">Web Design</h5>
-                                    <small class="text-primary">49 Courses</small>
-                                </div>
-                            </a>
+
+            <div class="row mt-4 justify-content-center">
+                <div class="col-md-8 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="main-timeline7">
+                        <div class="timeline">
+                            <div class="timeline-icon"><i class="fa fa-globe"></i></div>
+                            <span class="year">2018</span>
+                            <div class="timeline-content">
+                                <h5 class="title">Web Desginer</h5>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis
+                                    vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
+                                </p>
+                            </div>
                         </div>
-                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
-                            <a class="position-relative d-block overflow-hidden" href="">
-                                <img class="img-fluid" src="{{ asset('img/cat-2.jpg') }}" alt="">
-                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
-                                    style="margin: 1px;">
-                                    <h5 class="m-0">Graphic Design</h5>
-                                    <small class="text-primary">49 Courses</small>
-                                </div>
-                            </a>
+                        <div class="timeline">
+                            <div class="timeline-icon"><i class="fa fa-rocket"></i></div>
+                            <span class="year">2017</span>
+                            <div class="timeline-content">
+                                <h5 class="title">Web Developer</h5>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis
+                                    vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
+                                </p>
+                            </div>
                         </div>
-                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
-                            <a class="position-relative d-block overflow-hidden" href="">
-                                <img class="img-fluid" src="{{ asset('img/cat-3.jpg') }}" alt="">
-                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
-                                    style="margin: 1px;">
-                                    <h5 class="m-0">Video Editing</h5>
-                                    <small class="text-primary">49 Courses</small>
-                                </div>
-                            </a>
+                        <div class="timeline">
+                            <div class="timeline-icon"><i class="fa fa-briefcase"></i></div>
+                            <span class="year">2016</span>
+                            <div class="timeline-content">
+                                <h5 class="title">Web Desginer</h5>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis
+                                    vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-icon"><i class="fa fa-mobile"></i></div>
+                            <span class="year">2015</span>
+                            <div class="timeline-content">
+                                <h5 class="title">Web Developer</h5>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis
+                                    vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-icon"><i class="fa fa-mobile"></i></div>
+                            <span class="year">2015</span>
+                            <div class="timeline-content">
+                                <h5 class="title">Web Developer</h5>
+                                <p class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis
+                                    vitae risus pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
-                    <a class="position-relative d-block h-100 overflow-hidden" href="">
-                        <img class="img-fluid position-absolute w-100 h-100" src="{{ asset('img/cat-4.jpg') }}"
-                            alt="" style="object-fit: cover;">
-                        <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
-                            style="margin:  1px;">
-                            <h5 class="m-0">Online Marketing</h5>
-                            <small class="text-primary">49 Courses</small>
-                        </div>
-                    </a>
                 </div>
             </div>
         </div>
@@ -394,11 +410,11 @@
 
 
     <!-- Team Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5" id="kontak">
         <div class="container pt-5">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Instructors</h6>
-                <h1 class="mb-5">Expert Instructors</h1>
+                <h6 class="section-title bg-white text-center text-primary px-3">Kontak</h6>
+                <h1 class="mb-5">Hubungi Kami</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -645,19 +661,32 @@
 
     <script>
         $(document).ready(function() {
+            var informasi = $('#informasi').offset().top;
+            var jadwal = $('#jadwal').offset().top;
+            var caraDaftar = $('#caraDaftar').offset().top;
+            var kontak = $('#kontak').offset().top;
+
+            $('.nav-link').click(function(e) {
+                e.preventDefault();
+
+                $('.nav-link').removeClass('active');
+                $(this).addClass('active');
+                var attr = $(this).attr('href');
+                var scroll = $(attr).offset().top;
+                $("html, body").animate({
+                    scrollTop: scroll
+                }, 300, 'swing');
+            });
+
             $(document).scroll(function() {
                 var st = $(this).scrollTop() + 50;
-                var informasi = $('#informasi').offset().top;
-                var jadwal = $('#jadwal').offset().top;
-                var caraDaftar = $('#caraDaftar').offset().top;
-                console.log(st);
-                console.log(informasi);
-                console.log('');
+
                 $('.nav-link').removeClass('active');
                 if (st < informasi) $('#nav-home').addClass('active');
                 else if (st > informasi && st < jadwal) $('#nav-informasi').addClass('active');
                 else if (st > jadwal && st < caraDaftar) $('#nav-jadwal').addClass('active');
-                else if (st > caraDaftar) $('#nav-caraDaftar').addClass('active');
+                else if (st > caraDaftar && st < kontak) $('#nav-caraDaftar').addClass('active');
+                else if (st > kontak) $('#nav-kontak').addClass('active');
             });
         });
     </script>
